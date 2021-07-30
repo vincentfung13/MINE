@@ -29,7 +29,7 @@ conda activate MINE
 
 Download the pre-downsampled version of the LLFF dataset from [Google Drive](https://drive.google.com/file/d/1sV7ioO_bintNg4U33YfUpFDD782OY8NI/view?usp=sharing), unzip it and put it in the root of the project, then start training by running the following command:
 ```
-sh start_training.sh MASTER_ADDR="localhost" MASTER_PORT=1234 N_NODES=1 GPUS_PER_NODE=2 NODE_RANK=0 WORKSPACE=/run/user/3861/vs_tmp DATASET=realestate10k VERSION=debug EXTRA_CONFIG='{"training.gpus": "0,1"}'
+sh start_training.sh MASTER_ADDR="localhost" MASTER_PORT=1234 N_NODES=1 GPUS_PER_NODE=2 NODE_RANK=0 WORKSPACE=/run/user/3861/vs_tmp DATASET=llff VERSION=debug EXTRA_CONFIG='{"training.gpus": "0,1"}'
 ```
 
 You may find the tensorboard logs and checkpoints in the sub-working directory (WORKSPACE + VERSION). 
