@@ -1,0 +1,15 @@
+data.img_h: 128
+data.img_w: 384
+data.name: kitti_raw
+data.per_gpu_batch_size: 4
+data.training_set_path: TRAINING_SET_PATH 
+data.val_set_path: VAL_SET_PATH 
+lr.backbone_lr: 0.001
+lr.decay_gamma: 0.1
+lr.decay_steps: 40,80,100
+lr.decoder_lr: 0.001
+lr.weight_decay: 4.0e-05
+mpi.disparity_end: 0.001
+mpi.disparity_start: 0.2
+training.epochs: 120 
+training.eval_interval: 2000

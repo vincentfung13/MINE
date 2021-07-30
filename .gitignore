@@ -1,0 +1,7 @@
+*.pyc
+*.log
+*params_tmp.yaml
+params_tmp.yaml
+debug*/
+workspace/
+*.pth
