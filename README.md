@@ -1,5 +1,5 @@
 # MINE: Continuous-Depth MPI with Neural Radiance Fields
-### [Project Page](https://vincentfung13.github.io/projects/nemi/) | [Video](coming_soon)
+### [Project Page](https://vincentfung13.github.io/projects/nemi/) | [YouTube](https://youtu.be/I_92BXju350) | [bilibili](https://www.bilibili.com/video/BV1qR4y1H7F1/)
 PyTorch implementation for our ICCV 2021 paper.<br><br>
 [MINE: Towards Continuous Depth MPI with NeRF for Novel View Synthesis](https://vincentfung13.github.io/projects/nemi/)  
  [Jiaxin Li](https://www.jiaxinli.me/)\*<sup>1</sup>,
